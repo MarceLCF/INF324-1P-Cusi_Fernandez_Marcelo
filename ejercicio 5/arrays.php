@@ -52,13 +52,13 @@ include("header.php");
             $p_tr = 0; $p_bn = 0; $p_pd = 0;
 
             $sum_notas = array(
-                $lp => 0, $cb => 0, $sc => 0, $ch => 0, $or => 0, $pt => 0,
-                $tr => 0, $bn => 0, $pd => 0
+                $lp => 0, $cb => 0, $sc => 0,  $or => 0, $ch => 0, $pt => 0,
+                $tr => 0, $pd => 0,$bn => 0
             );
 
             $cantidad = array(
                 $lp => 0, $cb => 0, $sc => 0, $ch => 0, $or => 0, $pt => 0,
-                $tr => 0, $bn => 0, $pd => 0
+                $tr => 0, $pd => 0, $bn => 0
             );
 
             foreach ($res as $linea) {
